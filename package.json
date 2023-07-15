@@ -7,7 +7,8 @@
   "scripts": {
     "build": "hexo g",
     "clean": "hexo clean",
-    "test": "yarn clean && yarn build"
+    "test": "yarn clean && yarn build",
+    "serve": "yarn clean && hexo s"
   },
   "repository": {
     "type": "git",
@@ -25,10 +26,37 @@
   "homepage": "https://github.com/dimaslanjaka/hexo-multi-language#readme",
   "dependencies": {
     "hexo": "^7.0.0-rc2",
-    "hexo-cli": "^4.3.1",
+    "hexo-clean-css": "^2.0.0",
+    "hexo-filter-nofollow": "^2.0.2",
+    "hexo-fs": "^4.1.1",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-feed": "^3.0.0",
+    "hexo-generator-i18n": "^0.0.10",
     "hexo-generator-index": "^3.0.0",
-    "hexo-renderers": "https://github.com/dimaslanjaka/hexo-renderers.git#pre-release",
+    "hexo-generator-sitemap": "^3.0.1",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-renderer-marked": "^6.0.0",
+    "hexo-renderer-pug": "^3.0.0",
+    "hexo-renderer-stylus": "^3.0.0",
+    "hexo-renderers": "^2.0.1",
     "hexo-server": "^3.0.0",
-    "hexo-theme-butterfly": "^4.9.0"
+    "hexo-shortcodes": "^1.2.3",
+    "hexo-uglify": "^2.0.0",
+    "lunr": "2.3.9",
+    "sbg-utility": "^1.1.2",
+    "sharp": "^0.32.0"
+  },
+  "optionalDependencies": {
+    "hexo-log": "^4.0.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4"
+  },
+  "resolutions": {
+    "sbg-utility": "https://github.com/dimaslanjaka/static-blog-generator/raw/b9d2e7bfa/packages/sbg-utility/release/sbg-utility.tgz",
+    "hexo-renderers": "https://github.com/dimaslanjaka/hexo-renderers.git#pre-release",
+    "hexo-shortcodes": "https://github.com/dimaslanjaka/hexo-shortcodes.git#pre-release"
   }
 }

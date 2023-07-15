@@ -16,4 +16,9 @@ pretty_urls.trailing_index: false # keep trailing index.html
 pretty_urls: true # rewrite permalink variables (https://hexo.io/docs/variables) to pretty url
 
 # theme
-themes: butterfly
+theme: butterfly
+
+# config hexo-generator-i18n option (optional, this is default option)
+i18n:
+  type: [page, post]
+  generator: [archive, category, tag, index]
