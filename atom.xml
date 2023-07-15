@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>WMI</title>
+  
+  <subtitle>Website Manajemen Indonesia</subtitle>
+  <link href="https://www.webmanajemen.com/atom.xml" rel="self"/>
+  
+  <link href="https://www.webmanajemen.com/"/>
+  <updated>2023-07-15T12:20:19.467Z</updated>
+  <id>https://www.webmanajemen.com/</id>
+  
+  <author>
+    <name>L3n4r0x</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://www.webmanajemen.com/zh-CN/Hello-World.html"/>
+    <id>https://www.webmanajemen.com/zh-CN/Hello-World.html</id>
+    <published>2023-07-15T09:29:24.000Z</published>
+    <updated>2023-07-15T12:20:19.467Z</updated>
+    
+    <content type="html"><![CDATA[<p>你好世界 的中文</p>]]></content>
+    
+    
+    <summary type="html">Hello Worldp你好世界 的中文/p </summary>
+    
+    
+    
+    <category term="guide" scheme="https://www.webmanajemen.com/categories/guide/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://www.webmanajemen.com/en/Hello-World.html"/>
+    <id>https://www.webmanajemen.com/en/Hello-World.html</id>
+    <published>2023-07-15T09:29:05.000Z</published>
+    <updated>2023-07-15T12:20:12.639Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hello world in english</p>]]></content>
+    
+    
+    <summary type="html">Hello WorldpHello world in english/p </summary>
+    
+    
+    
+    <category term="guide" scheme="https://www.webmanajemen.com/categories/guide/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://www.webmanajemen.com/id/Hello-World.html"/>
+    <id>https://www.webmanajemen.com/id/Hello-World.html</id>
+    <published>2023-07-15T09:28:31.000Z</published>
+    <updated>2023-07-15T12:20:16.467Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hello world dalam bahasa indonesia</p>]]></content>
+    
+    
+    <summary type="html">Hello WorldpHello world dalam bahasa indonesia/p </summary>
+    
+    
+    
+    <category term="guide" scheme="https://www.webmanajemen.com/categories/guide/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Post without language</title>
+    <link href="https://www.webmanajemen.com/no-language-permalink.html"/>
+    <id>https://www.webmanajemen.com/no-language-permalink.html</id>
+    <published>2023-07-15T04:46:44.000Z</published>
+    <updated>2023-07-15T04:46:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>This post without defining <code>lang</code> property in metadata.</p>]]></content>
+    
+    
+    <summary type="html">Post without languagepThis post without defining codelang/code property in metadata./p </summary>
+    
+    
+    
+    <category term="guide" scheme="https://www.webmanajemen.com/categories/guide/"/>
+    
+    
+    <category term="permalink" scheme="https://www.webmanajemen.com/tags/permalink/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Post without language and permalink</title>
+    <link href="https://www.webmanajemen.com/no-language.html"/>
+    <id>https://www.webmanajemen.com/no-language.html</id>
+    <published>2023-07-15T04:46:44.000Z</published>
+    <updated>2023-07-15T04:46:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>This post without defining <code>lang</code> &amp; <code>permalink</code> properties in metadata.</p>]]></content>
+    
+    
+    <summary type="html">Post without language and permalinkpThis post without defining codelang/code &amp;amp; codepermalink/code properties in metadata./p </summary>
+    
+    
+    
+    <category term="guide" scheme="https://www.webmanajemen.com/categories/guide/"/>
+    
+    
+    <category term="permalink" scheme="https://www.webmanajemen.com/tags/permalink/"/>
+    
+  </entry>
+  
+</feed>
