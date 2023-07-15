@@ -1,0 +1,19 @@
+# site info
+title: WMI
+subtitle: Website Manajemen Indonesia
+# hexo default is empty, change to exact languages, and add xx.yml under your theme languages dir.
+language: [id,en]
+timezone: Asia/Jakarta
+
+# permalink
+url: https://www.webmanajemen.com
+root: /
+## https://hexo.io/docs/permalinks#Multi-language-Support
+new_post_name: :lang/:title.md # hexo new "Hello World" --lang tw => source/_posts/tw/Hello-World.md
+permalink: :lang/:title.html # url will become http://localhost:4000/tw/hello-world.html
+pretty_urls.trailing_html: true # keep .html extension
+pretty_urls.trailing_index: false # keep trailing index.html
+pretty_urls: true # rewrite permalink variables (https://hexo.io/docs/variables) to pretty url
+
+# theme
+themes: butterfly
