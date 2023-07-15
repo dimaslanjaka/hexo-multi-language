@@ -8,7 +8,7 @@ author: L3n4r0x
 
 # permalink
 url: https://www.webmanajemen.com
-root: /
+root: /hexo-multi-language/
 ## https://hexo.io/docs/permalinks#Multi-language-Support
 new_post_name: :lang/:title.md # hexo new "Hello World" --lang tw => source/_posts/tw/Hello-World.md
 permalink: :lang/:title.html # url will become http://localhost:4000/tw/hello-world.html
