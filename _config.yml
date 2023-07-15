@@ -4,6 +4,7 @@ subtitle: Website Manajemen Indonesia
 # hexo default is empty, change to exact languages, and add xx.yml under your theme languages dir.
 language: [id,en]
 timezone: Asia/Jakarta
+author: L3n4r0x
 
 # permalink
 url: https://www.webmanajemen.com
