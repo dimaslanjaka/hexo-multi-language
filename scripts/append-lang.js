@@ -5,13 +5,13 @@ const { pathJoin, isDefaultLanguage, getPageLanguage } =
  * Append language directory to the post tags and categories
  */
 hexo.extend.filter.register("before_post_render", function (data) {
-	data.lang = getPageLanguage(data);
+	data.lang = getPageLanguage(data) || '';
 	data._categories = data.categories
 		? data.categories.map((category) => {
 				return {
 					name: category.name,
 					path: !isDefaultLanguage(data.lang)
-						? pathJoin(data.lang, category.path)
+						? pathJoin(data.lang || '', category.path)
 						: category.path,
 				};
 		  })
@@ -21,7 +21,7 @@ hexo.extend.filter.register("before_post_render", function (data) {
 				return {
 					name: tag.name,
 					path: !isDefaultLanguage(data.lang)
-						? pathJoin(data.lang, tag.path)
+						? pathJoin(data.lang || '', tag.path)
 						: tag.path,
 				};
 		  })
