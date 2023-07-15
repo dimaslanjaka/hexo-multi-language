@@ -1,0 +1,29 @@
+name: 'Indonesia'
+common:
+  archives: 'Arsip'
+  category: 'Kategori'
+  tag: 'Tag'
+  categories: 'Categories'
+  tags: 'Tags'
+nav:
+  next: 'Selanjutnya'
+  prev: 'Sebelumnya'
+  search: 'Cari'
+  toc: 'Table of Contents'
+article:
+  read_more: 'Baca Selengkapnya'
+  read: 'baca'
+  about: 'Tentang'
+  words: 'kata'
+  comments: 'Comments'
+  contents: 'Contents'
+search:
+  hint: 'Tulis sesuatu...'
+insight:
+  hint: 'Tulis sesuatu...'
+  posts: 'Postingan'
+  pages: 'Halaman'
+  categories: 'Kategori'
+  tags: 'Tags'
+  untitled: '(Tanpa Judul)'
+powered_by: 'Diprakarsai oleh'
