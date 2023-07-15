@@ -23,3 +23,29 @@ theme: butterfly
 i18n:
   type: [page, post]
   generator: [archive, category, tag, index]
+
+# config hexo-generator-index
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -updated
+  pagination_dir: page
+
+# config hexo-generator-category
+category_generator:
+  per_page: 10
+  order_by: -updated
+
+# config hexo-generator-tag
+tag_generator:
+  per_page: 10
+  order_by: -updated
+
+# config hexo-generator-archive
+archive_generator:
+  enabled: true
+  per_page: 10
+  yearly: true
+  monthly: true
+  daily: false
+  order_by: -updated
