@@ -1,2 +1,2 @@
 # hexo-multi-language
-Hexo multi language project
+Hexo site with multi language support project 
