@@ -132,3 +132,4 @@ dist
 **/db.json
 **/tmp
 /public
+.deploy_git

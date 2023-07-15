@@ -49,3 +49,12 @@ archive_generator:
   monthly: true
   daily: false
   order_by: -updated
+
+# config hexo-deployer-git
+deploy:
+  type: git
+  repo: https://github.com/dimaslanjaka/hexo-multi-language
+  branch: gh-pages
+  message: "chore: publish {{ now(\"yyyy-MM-dd HH:mm:ss\") }}"
+  name: dimaslanjaka
+  email: dimaslanjaka@gmail.com

@@ -3599,6 +3599,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hexo-deployer-git@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "hexo-deployer-git@npm:4.0.0"
+  dependencies:
+    bluebird: ^3.7.2
+    hexo-fs: ^4.0.0
+    hexo-util: ^2.7.0
+    luxon: ^3.0.4
+    nunjucks: ^3.2.3
+    picocolors: ^1.0.0
+  checksum: 1fd4859efef460b323a263c3df27a4790ef4b197a01cb11b73c2b2e88b378752e66e37a68d910f3925a894c95e6b1ec91b7ab75fd0b6120adebd84dae7483633
+  languageName: node
+  linkType: hard
+
 "hexo-filter-nofollow@npm:^2.0.2":
   version: 2.0.2
   resolution: "hexo-filter-nofollow@npm:2.0.2"
@@ -3615,7 +3629,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-fs@npm:^4.1.1":
+"hexo-fs@npm:^4.0.0, hexo-fs@npm:^4.1.1":
   version: 4.1.1
   resolution: "hexo-fs@npm:4.1.1"
   dependencies:
@@ -3718,6 +3732,7 @@ __metadata:
     "@types/lodash": ^4
     hexo: ^7.0.0-rc2
     hexo-clean-css: ^2.0.0
+    hexo-deployer-git: ^4.0.0
     hexo-filter-nofollow: ^2.0.2
     hexo-fs: ^4.1.1
     hexo-generator-archive: ^2.0.0
@@ -5040,6 +5055,13 @@ __metadata:
   version: 2.3.9
   resolution: "lunr@npm:2.3.9"
   checksum: 176719e24fcce7d3cf1baccce9dd5633cd8bdc1f41ebe6a180112e5ee99d80373fe2454f5d4624d437e5a8319698ca6837b9950566e15d2cae5f2a543a3db4b8
+  languageName: node
+  linkType: hard
+
+"luxon@npm:^3.0.4":
+  version: 3.3.0
+  resolution: "luxon@npm:3.3.0"
+  checksum: 50cf17a0dc155c3dcacbeae8c0b7e80db425e0ba97b9cbdf12a7fc142d841ff1ab1560919f033af46240ed44e2f70c49f76e3422524c7fc8bb8d81ca47c66187
   languageName: node
   linkType: hard
 
