@@ -1,4 +1,4 @@
-// copy source posts into source/_posts
+// copy source posts into source/_posts after init (hexo.init())
 
 const { path, fs } = require("sbg-utility");
 
