@@ -20,15 +20,30 @@ hexo.log.i(
 
 hexo.extend.generator.register("meta", function (locals) {
 	locals.tags.sort("name").each(function (tag) {
-		if (!meta.tags.includes(tag.name)) meta.tags.push(tag.name);
+		const existingName = meta.tags.findIndex((item) => item.name === tag.name);
+		if (existingName === -1) {
+			meta.tags.push({
+				name: tag.name,
+				permalink: tag.permalink,
+			});
+		}
 	});
 	locals.categories.sort("name").each(function (category) {
-		if (!meta.categories.includes(category.name))
-			meta.categories.push(category.name);
+		const existingName = meta.categories.findIndex(
+			(item) => item.name === tag.name
+		);
+		if (existingName === -1) {
+			meta.categories.push({
+				name: category.name,
+				permalink: category.permalink,
+			});
+		}
 	});
 	locals.posts.sort("name").each(function (post) {
-		const existingId = meta.posts.findIndex((p) => p._id === post._id);
-		const existingTitle = meta.posts.findIndex((p) => p.title === post.title);
+		const existingId = meta.posts.findIndex((item) => item._id === post._id);
+		const existingTitle = meta.posts.findIndex(
+			(item) => item.title === post.title
+		);
 		if (existingId === -1 && existingTitle === -1) {
 			meta.posts.push({
 				id: post._id,
