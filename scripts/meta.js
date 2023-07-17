@@ -27,8 +27,9 @@ hexo.extend.generator.register("meta", function (locals) {
 			meta.categories.push(category.name);
 	});
 	locals.posts.sort("name").each(function (post) {
-		const existingIndex = meta.posts.findIndex((p) => p._id === post._id);
-		if (existingIndex === -1) {
+		const existingId = meta.posts.findIndex((p) => p._id === post._id);
+		const existingTitle = meta.posts.findIndex((p) => p.title === post.title);
+		if (existingId === -1 && existingTitle === -1) {
 			meta.posts.push({
 				id: post._id,
 				title: post.title,
