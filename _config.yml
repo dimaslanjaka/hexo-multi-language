@@ -2,9 +2,14 @@
 title: WMI
 subtitle: Website Manajemen Indonesia
 # hexo default is empty, change to exact languages, and add xx.yml under your theme languages dir.
-language: [id,en]
+language: [id, en]
 timezone: Asia/Jakarta
 author: L3n4r0x
+
+# directory
+## source posts folder
+## used in scripts\copy-source-posts.js
+post_dir: sample-posts
 
 # permalink
 url: https://www.webmanajemen.com
@@ -26,7 +31,7 @@ i18n:
 
 # config hexo-generator-index
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -updated
   pagination_dir: page
@@ -55,6 +60,6 @@ deploy:
   type: git
   repo: https://github.com/dimaslanjaka/hexo-multi-language
   branch: gh-pages
-  message: "chore: publish {{ now(\"yyyy-MM-dd HH:mm:ss\") }}"
+  message: 'chore: publish {{ now("yyyy-MM-dd HH:mm:ss") }}'
   name: dimaslanjaka
   email: dimaslanjaka@gmail.com

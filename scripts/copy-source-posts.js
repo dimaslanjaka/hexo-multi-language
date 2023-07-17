@@ -3,7 +3,7 @@
 const { path, fs } = require("sbg-utility");
 
 hexo.extend.filter.register("after_init", function () {
-	const src = path.join(__dirname, "../sample-posts");
+	const src = path.join(hexo.base_dir, hexo.config.post_dir);
 	const dest = path.join(hexo.base_dir, "source/_posts");
 	fs.copySync(src, dest, { overwrite: true });
   // logging
