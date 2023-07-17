@@ -1,4 +1,8 @@
-// forked from https://gist.github.com/mh61503891/544d3c1eefd00b1012463b860222d34f
+/**
+ * create meta.json in public root
+ * forked from https://gist.github.com/mh61503891/544d3c1eefd00b1012463b860222d34f
+ * this file contains all post data
+ */
 
 const meta = {
 	tags: [],
