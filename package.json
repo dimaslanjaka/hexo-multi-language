@@ -5,10 +5,11 @@
   "description": "Hexo multi language project",
   "main": "index.js",
   "scripts": {
-    "build": "hexo g",
+    "build": "hexo generate",
     "clean": "hexo clean",
-    "test": "yarn clean && yarn build",
-    "serve": "yarn clean && hexo s"
+    "test": "yarn run clean && yarn run build",
+    "serve": "yarn run clean && hexo server",
+    "deploy": "yarn run build && hexo deploy"
   },
   "repository": {
     "type": "git",
