@@ -30,9 +30,8 @@ hexo.extend.generator.register("meta", function (locals) {
 		meta.posts.push({
 			title: post.title,
 			url: encodeURI(post.permalink),
-			// get modified date first
-			date:
-				post.updated.toDate().toISOString() || post.date.toDate().toISOString(),
+			date: post.date.toDate().toISOString(),
+			updated: post.updated.toDate().toISOString()
 		});
 	});
 	return { path: "meta.json", data: JSON.stringify(meta) };
