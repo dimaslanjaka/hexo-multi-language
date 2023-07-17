@@ -27,12 +27,16 @@ hexo.extend.generator.register("meta", function (locals) {
 			meta.categories.push(category.name);
 	});
 	locals.posts.sort("name").each(function (post) {
-		meta.posts.push({
-			title: post.title,
-			url: encodeURI(post.permalink),
-			date: post.date.toDate().toISOString(),
-			updated: post.updated.toDate().toISOString()
-		});
+		const existingIndex = meta.posts.findIndex((p) => p._id === post._id);
+		if (existingIndex === -1) {
+			meta.posts.push({
+				id: post._id,
+				title: post.title,
+				url: encodeURI(post.permalink),
+				date: post.date.toDate().toISOString(),
+				updated: post.updated.toDate().toISOString(),
+			});
+		}
 	});
 	return { path: "meta.json", data: JSON.stringify(meta) };
 });
