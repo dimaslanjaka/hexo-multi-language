@@ -1,7 +1,7 @@
 const _ = require("lodash");
 const indexGenerator = require("hexo-generator-index/lib/generator");
 const { pathJoin, isDefaultLanguage, postFilter, injectLanguages } =
-	require("../lib/i18n")(hexo);
+	require("../../lib/i18n")(hexo);
 const utility = require("sbg-utility");
 
 /**

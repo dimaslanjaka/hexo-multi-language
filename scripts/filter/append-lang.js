@@ -1,5 +1,5 @@
 const { pathJoin, isDefaultLanguage, getPageLanguage } =
-	require("../lib/i18n")(hexo);
+	require("../../lib/i18n")(hexo);
 
 /**
  * Append language directory to the post tags and categories

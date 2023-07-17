@@ -4,7 +4,7 @@
  * this file contains all post data
  */
 
-const { wordCounter } = require("../lib/util/wordCounter");
+const { wordCounter } = require("../../lib/util/wordCounter");
 
 const meta = {
 	tags: [],

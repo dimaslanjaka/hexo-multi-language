@@ -3,7 +3,7 @@ const archiveGenerator = require("hexo-generator-archive/lib/generator");
 const categoryGenerator = require("hexo-generator-category/lib/generator");
 const tagGenerator = require("hexo-generator-tag/lib/generator");
 const { pathJoin, isDefaultLanguage, postFilter, injectLanguages } =
-	require("../lib/i18n")(hexo);
+	require("../../lib/i18n")(hexo);
 
 /**
  * Multi-language archive generator.

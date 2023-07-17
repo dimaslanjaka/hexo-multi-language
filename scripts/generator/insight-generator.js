@@ -5,7 +5,7 @@ const {
 	url_for,
 	postFilter,
 	injectLanguages,
-} = require("../lib/i18n")(hexo);
+} = require("../../lib/i18n")(hexo);
 
 /**
  * Multi-language insight search content.json generator.
