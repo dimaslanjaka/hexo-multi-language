@@ -8,7 +8,7 @@ author: L3n4r0x
 
 # directory
 ## source posts folder
-## used in scripts\copy-source-posts.js
+## used in scripts/init/copy-source-posts.js
 post_dir: sample-posts
 
 # permalink
