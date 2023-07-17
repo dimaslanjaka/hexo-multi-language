@@ -4,6 +4,8 @@
  * this file contains all post data
  */
 
+const { wordCounter } = require("../lib/util/wordCounter");
+
 const meta = {
 	tags: [],
 	posts: [],
@@ -51,6 +53,7 @@ hexo.extend.generator.register("meta", function (locals) {
 				url: encodeURI(post.permalink),
 				date: post.date.toDate().toISOString(),
 				updated: post.updated.toDate().toISOString(),
+				words: wordCounter(post.content),
 			});
 		}
 	});
