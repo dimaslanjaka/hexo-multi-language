@@ -1,5 +1,67 @@
 {
-  "yaml.schemas": {
-    "https://json.schemastore.org/jekyll.json": "file:///d%3A/Repositories/hexo-multi-language/_config.yml"
+	"yaml.schemas": {
+		"https://json.schemastore.org/jekyll.json": "file:///d%3A/Repositories/hexo-multi-language/_config.yml"
+	},
+  "files.associations": {
+    "*.njk": "njk",
+    "*.nj": "njk",
+    "*.ejs": "html"
+  },
+  "emmet.includeLanguages": {
+    "ejs": "html",
+    "njk": "html",
+    "nunjucks": "html"
+  },
+  "emmet.syntaxProfiles": {
+    "njk": "html",
+  },
+  "terminal.integrated.env.linux": {
+    "PATH": "${env:PATH}:${workspaceFolder}/node_modules/.bin:${workspaceFolder}/bin"
+  },
+  "terminal.integrated.env.windows": {
+    "PATH": "${env:PATH};${workspaceFolder}\\node_modules\\.bin;${workspaceFolder}\\bin"
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Cygwin": {
+      "path": "C:\\cygwin64\\bin\\bash.exe",
+      "args": [
+        "--login",
+        "-i"
+      ],
+      "env": {
+        "CHERE_INVOKING": "1"
+      }
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll": true // let ESLint take formating and linting
+  },
+	"npm.packageManager": "yarn",
+	"editor.formatOnSave": false,
+	"editor.formatOnPaste": false,
+	"editor.formatOnType": false,
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/vendor": true,
+    "**/tmp/yarn": true
   }
 }
